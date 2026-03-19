@@ -50,7 +50,7 @@ I believe that the 'avg_rating' column in my recipes dataset is MNAR because whe
 
 I performed permutation tests using the 'n_ingredients' and 'n_steps' columns to determine whether the missingness of the 'description' column depends on those columns in the dataset. For 'n_ingredients', the permutation test produced a p-value of 0.0, which is below 0.05, which suggests that the missingness of the 'description' column is dependent on the number of ingredients and that there's strong evidence of an association between the number of ingredients and the missingness of the description. However, for 'n_steps', the permutation test produced a p-value of 0.23, which is above 0.05, which suggests that the missingness of the 'description' column is not dependent on the number of steps and that there's no strong evidence of an association between the number of steps and the missingness of the description.
 
-This plot shows the distribution of the number of ingredients for recipes that have and don't have a description. 
+This plot shows the distribution of the number of ingredients for recipes that have and don't have a description, with True indicating that the description is missing and False indicating the description is not missing.
 <iframe
   src="assets/n_ingredients_by_description_missingness.html"
   width="800"
