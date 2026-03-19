@@ -37,3 +37,9 @@ This histogram shows the distribution of average recipe ratings. Most ratings se
   frameborder="0"
 ></iframe>
 This scatter plot shows the relationship between the average rating of recipes and the number of steps. There seems to be a pretty positive relationship between the two features, as recipes with higher average ratings seem to have higher number of steps as well. 
+<iframe
+  src="assets/grouped_table.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
