@@ -23,7 +23,6 @@ Here's my cleaned recipes dataframe:
   frameborder="0"
 ></iframe>
 
-
 This histogram shows the distribution of average recipe ratings. Most ratings seem to be concentrated between ratings 4 and 5, especially rating 5 where it has the most recipes, indicating that most recipes receive very high ratings, with very few recipes with low ratings.
 <iframe
   src="assets/avg_rating_per_recipe.html"
