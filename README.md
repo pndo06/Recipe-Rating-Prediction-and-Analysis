@@ -22,3 +22,17 @@ Here's my cleaned recipes dataframe:
   height="600"
   frameborder="0"
 ></iframe>
+
+<iframe
+  src="assets/avg_rating_per_recipe.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="assets/avg_rating_vs_n_steps.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
