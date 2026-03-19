@@ -29,9 +29,11 @@ Here's my cleaned recipes dataframe:
   height="600"
   frameborder="0"
 ></iframe>
+This histogram shows the distribution of average recipe ratings. Most ratings seem to be concentrated between ratings 4 and 5, especially rating 5 where it has the most recipes, indicating that most recipes receive very high ratings, with very few recipes with low ratings.
 <iframe
   src="assets/avg_rating_vs_n_steps.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
+This scatter plot shows the relationship between the average rating of recipes and the number of steps. There seems to be a pretty positive relationship between the two features, as recipes with higher average ratings seem to have higher number of steps as well. 
