@@ -38,6 +38,7 @@ This scatter plot shows the relationship between the average rating of recipes a
   height="600"
   frameborder="0"
 ></iframe>
+This table shows the average ratings of recipes and number of recipes grouped by the number of steps. While it looks like higher number of steps do have higher ratings, those groups have very few recipes shown in the 'count' column compared to groups with fewer number of steps. It would be more reliable if there are more recipes for the higher number of steps. Therefore, we can't say that there's a strong positive relationship between average ratings and the number of steps. This table helps us understand that the number of steps might not be a strong predictor of recipe ratings and that other features might be more important for later analysis and modeling.
 <iframe
   src="assets/grouped_table.html"
   width="800"
