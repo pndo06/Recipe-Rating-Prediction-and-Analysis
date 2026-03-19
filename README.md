@@ -15,6 +15,7 @@ After this, I computed the average rating for each recipe by grouping the result
 
 Lastly, I converted the 'nutrition' column and created new separate columns for each nutritional category from the original 'nutrition' column. The 'nutrition' column was originally stored as strings that look like lists containing multiple values corresponding to different nutritional values (calories, sugar, carbs, etc). So by converting the 'nutrition' column into separate columns containg numeric values for each nutritional category, it makes it so much easier to do analysis on how different nutritional components are related to recipe ratings.
 
+Here's my cleaned recipes dataframe:
 <iframe
   src="assets/clean_recipes_df.html"
   width="800"
