@@ -14,3 +14,10 @@ Next, I handled missing values by replacing 0 ratings with NaN in the 'rating' c
 After this, I computed the average rating for each recipe by grouping the resulting merged dataframe by the recipe ID and taking the mean of user ratings. This step combines and averages multiple ratings per recipe into a single rating value per recipe so that each recipe gets one average rating, making the data nice and clean for analysis. 
 
 Lastly, I converted the 'nutrition' column and created new separate columns for each nutritional category from the original 'nutrition' column. The 'nutrition' column was originally stored as strings that look like lists containing multiple values corresponding to different nutritional values (calories, sugar, carbs, etc). So by converting the 'nutrition' column into separate columns containg numeric values for each nutritional category, it makes it so much easier to do analysis on how different nutritional components are related to recipe ratings.
+
+<iframe
+  src="assets/clean_recipes_df.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
