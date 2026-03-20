@@ -59,3 +59,9 @@ This plot shows the distribution of the number of ingredients for recipes that h
 ></iframe>
 
 # Hypothesis Testing
+My null hypothesis is that recipes with more steps do not receive higher average ratings, and my alternative hypothesis is that recipes with more steps receive higher average ratings. My test statistic is the difference in mean average rating between the group with higher number of steps and the group with lower number of steps. The number of steps is considered higher if it's greater than the mean number of steps, otherwise it's fewer. The significance level is 0.05. The resulting p-value is 0.244, which is greater than the significance level of 0.05, so my test fails to reject the null hypothesis. The conclusion is that there's no strong evidence that recipes with more steps receive higher average ratings.
+
+# Framing a Prediction Problem
+My prediction problem is trying to predict the average rating of a recipe based on numeric features such as number of ingredients, number of steps, minutes of cooking, and nutritional information (number of calories, sugar, sodium, etc). This prediction problem is a regression problem. The response variable is the average rating, and the reason I chose it to be the response variable is because predicting recipes' average ratings can be very helpful for recipe creators to create recipes that are more likely to get higher ratings and know what factors would make their recipes highly rated by users. Predicting average rating also help users to find highly rated recipes recommended to them. The metric I'm using RMSE to evaluate my model because RMSE helps measure how far the predicted ratings are from the actual ratings. RMSE also penalizes larger errors more than smaller errors, therefore it helps the model avoid big errors and make more accurate predictions. 
+
+# Baseline Model
